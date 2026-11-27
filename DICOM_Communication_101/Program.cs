@@ -10,11 +10,10 @@ namespace DICOM_Communication_101
     {
         static void Main(string[] args)
         {
+            string patID = "ALIGNRT_1"; 
             CEchoTutorial.Run();
-            //CFindTutorial.Run();
-            //CMoveTutorial1.Run();
-            //CMoveTutorial2.Run();
-            //CStoreTutorial.Run();
+            CFindTutorial.Run(patID);
+            CMoveTutorial.Run(patID);
         }
     }
 }

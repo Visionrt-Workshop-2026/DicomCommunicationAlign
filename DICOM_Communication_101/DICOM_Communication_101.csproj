@@ -8,8 +8,9 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>DICOM_Communication_101</RootNamespace>
     <AssemblyName>DICOM_Communication_101</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,9 +50,7 @@
   <ItemGroup>
     <Compile Include="CEchoTutorial.cs" />
     <Compile Include="CFindTutorial.cs" />
-    <Compile Include="CMoveTutorial1.cs" />
-    <Compile Include="CMoveTutorial2.cs" />
-    <Compile Include="CStoreTutorial.cs" />
+    <Compile Include="CMoveTutorial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
